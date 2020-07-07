@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 2.8.9)
 project(myTest)
 
-# include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-# conan_basic_setup(TARGETS)
-
 include(cmake/packagemanager.cmake)
 
 add_executable(myTest test.cpp)

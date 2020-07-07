@@ -11,6 +11,6 @@ conan_basic_setup(TARGETS)
 else()
 include(${CMAKE_BINARY_DIR}/conan.cmake)
 conan_cmake_run(CONANFILE conanfile.txt
-                BASIC_SETUP CMAKE_TARGETS 
+                BASIC_SETUP
                 BUILD missing)
 endif()
