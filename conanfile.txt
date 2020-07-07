@@ -1,6 +1,5 @@
 [requires]
-poco/1.9.4
-types/0.0.9@
+types/0.0.9
 
 [generators]
 cmake
