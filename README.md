@@ -1,2 +1,2 @@
-# usingConanLibrary
+# usingConanPackage
 test of conan
